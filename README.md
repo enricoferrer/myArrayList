@@ -19,7 +19,7 @@ Esta implementação utiliza um array (vetor) de `String` para armazenar os elem
 
 ## Limitações
 
-Esta versão da `ArrayList` possui as seguintes limitações, conforme especificado na tarefa:
+Esta versão da `ArrayList` possui as seguintes limitações por enquanto:
 
 * **Sem Suporte a Tipos Genéricos:** A lista armazena apenas objetos do tipo `String`.
 * **Tamanho Fixo:** O tamanho do vetor interno é definido na criação e não há redimensionamento dinâmico automático quando a lista fica cheia.
@@ -32,8 +32,7 @@ Esta versão da `ArrayList` possui as seguintes limitações, conforme especific
 4.  Utilize os métodos implementados para adicionar, remover, acessar e verificar o tamanho dos elementos na lista.
 
 ```java
-// Exemplo de uso (assumindo que sua classe se chama MinhaArrayList)
-MinhaArrayList minhaLista = new MinhaArrayList(10); // Cria uma lista com capacidade inicial de 10
+MyArrayList minhaLista = new MyArrayList();
 
 minhaLista.add("Elemento 1");
 minhaLista.add("Elemento 2");
